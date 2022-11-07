@@ -16,11 +16,11 @@ module.exports = {
     },
     matic: {
       url: 'https://polygon-mainnet.g.alchemy.com/v2/1umSo1e_922UF-vN7reBqg5K9rEIyTJn',
-      accounts: ['PRIVATE_KEY'],
+      accounts: [''],
     }
   },
   solidity: {
-    version: "0.8.7",
+    version: "0.8.9",
     settings: {
       optimizer: {
         enabled: true,
@@ -36,5 +36,10 @@ module.exports = {
   },
   mocha: {
     timeout: 20000
+  },
+  etherscan: {
+    apiKey: {
+      polygon: 'N8NCCBJMVMMQGVNNP6II9MEUH3JAWC62WE'
+    }
   }
 }
