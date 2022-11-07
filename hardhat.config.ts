@@ -15,7 +15,7 @@ module.exports = {
     hardhat: {
     },
     matic: {
-      url: 'https://polygon-mainnet.g.alchemy.com/v2/1umSo1e_922UF-vN7reBqg5K9rEIyTJn',
+      url: '',
       accounts: [''],
     }
   },
@@ -39,7 +39,7 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      polygon: 'N8NCCBJMVMMQGVNNP6II9MEUH3JAWC62WE'
+      polygon: ''
     }
   }
 }
